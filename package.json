@@ -1,0 +1,24 @@
+{
+  "name": "api-master",
+  "version": "1.0.0",
+  "description": "A node express with postgres api",
+  "main": "server.js",
+  "scripts": {
+    "build": "babel server.js --out-dir build",
+    "start": "babel-watch server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nicholas mtabo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "babel-watch": "^7.0.0"
+  }
+}
